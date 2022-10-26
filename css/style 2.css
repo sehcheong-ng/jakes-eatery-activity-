@@ -1,0 +1,149 @@
+/* Navigation styles */
+* {
+    margin : 0;
+    padding: 0;
+}
+/* 
+html, body {
+    height: 100%;
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #181a1b;
+}
+
+.logo {
+    background-image: url("../images/jakes-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    height: 230px;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 15px 15px;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.left button{
+    background-color:aqua;
+    padding: 10px;
+    height: 80px;
+    white-space: normal;
+    word-wrap: break-word;
+
+}
+
+.right button{
+    background-color: yellow;
+    padding: 10px;
+    height: 80px;
+    white-space: normal;
+    word-wrap: break-word;
+
+}
+
+.center a {
+    margin: 10px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+
+
+
+/* Column styles */
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.meal1 {
+    display: flex;
+    background-image: url("../images/steak.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content:center;
+    height: 350px;
+    margin: 20px 0;
+    /* padding : 0 20px; */
+}
+
+
+.meal2 {
+    display: flex;
+    background-image: url("../images/soup.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content:center;
+    height: 350px;
+    margin: 20px 0;
+    /* padding : 0 20% */
+}
+
+
+.meal3 {
+    display: flex;
+    background-image: url("../images/cheesecake.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content:center;
+    height: 350px;
+    margin: 20px 0;
+    /* padding : 0 20% */
+}
+
+.text {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    align-self: flex-end;
+    padding: 30px 40px;
+    height: 100px;
+}
+
+
+h1 {
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    padding: 0 15px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Footer Styles */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 30px 30px;
+    margin-top: auto;
+}
+
+.fb {
+    color: aquamarine;
+}
+
+.tw {
+    color: yellow;
+}
+
+.ig {
+    color: red;
+}
